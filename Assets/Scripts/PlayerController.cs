@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
 
     public float jumpForce;
-    [SerializeField] bool jumpInput;
+    [SerializeField] bool jumpInput = false;
 
     public Transform grdChecker;
     public LayerMask Ground;
