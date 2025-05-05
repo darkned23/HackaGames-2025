@@ -8,6 +8,7 @@ public class DialogueSystem : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI dialogueText; // Referencia al texto en pantalla
     [SerializeField] private GameObject dialoguePanel; // Panel que contiene el diálogo
+    [SerializeField] private GameObject optionsPanel; // Panel de opciones al final del diálogo
     [SerializeField] private string[] dialogueLines; // Líneas de diálogo
     [SerializeField] private float typingSpeed = 0.05f; // Velocidad de escritura
     [SerializeField] private GameObject interactionPrompt; // Referencia al prompt de interacción
@@ -61,6 +62,8 @@ public class DialogueSystem : MonoBehaviour
     public void StartDialogue()
     {
         dialoguePanel.SetActive(true);
+        if (optionsPanel != null)
+            optionsPanel.SetActive(false); // Asegura que el panel de opciones esté oculto al iniciar
         currentLineIndex = 0;
         StartCoroutine(TypeLine());
     }
@@ -101,10 +104,19 @@ public class DialogueSystem : MonoBehaviour
             }
             else
             {
-                EndDialogue();
-                dialogueStarted = false;
-                if (interactionPrompt != null)
-                    interactionPrompt.SetActive(true);
+                // Mostrar el panel de opciones como el "último diálogo"
+                if (optionsPanel != null)
+                {
+                    optionsPanel.SetActive(true);
+                    dialoguePanel.SetActive(false);
+                }
+                else
+                {
+                    EndDialogue();
+                    dialogueStarted = false;
+                    if (interactionPrompt != null)
+                        interactionPrompt.SetActive(true);
+                }
             }
         }
     }
@@ -125,9 +137,11 @@ public class DialogueSystem : MonoBehaviour
         canContinue = true;
     }
 
-    private void EndDialogue()
+    public void EndDialogue()
     {
         dialoguePanel.SetActive(false);
+        if (optionsPanel != null)
+            optionsPanel.SetActive(false); // Asegura que el panel de opciones se oculte al terminar
         dialogueStarted = false;
         currentLineIndex = 0;
     }

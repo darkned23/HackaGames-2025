@@ -12,7 +12,7 @@ public class UI : MonoBehaviour
         SceneManager.LoadScene("Escena1");
     }
 
-   
 
-    
+
+
 }

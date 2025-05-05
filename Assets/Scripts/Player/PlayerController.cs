@@ -5,19 +5,12 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed;
-
     Vector2 moveInput;
-
-    public float jumpForce;
-    [SerializeField] bool jumpInput = false;
-
     public Transform grdChecker;
     public LayerMask Ground;
     public float rayLength;
     [SerializeField] bool grounded;
-
     [SerializeField] bool backTurned;
-
     public bool flipped;
     public float flipSpeed;
 
@@ -38,20 +31,12 @@ public class PlayerController : MonoBehaviour
         // Vincula las acciones manualmente
         playerInput.actions["Move"].performed += ctx => Move(ctx);
         playerInput.actions["Move"].canceled += ctx => Move(ctx);
-        playerInput.actions["Jump"].performed += ctx => Jump(ctx);
+        // playerInput.actions["Jump"].performed += ctx => Jump(ctx);
     }
 
     public void Move(InputAction.CallbackContext context)
     {
         moveInput = context.ReadValue<Vector2>();
-    }
-
-    public void Jump(InputAction.CallbackContext context)
-    {
-        if (context.performed && grounded)
-        {
-            jumpInput = true;
-        }
     }
 
     private void Update()
@@ -90,15 +75,5 @@ public class PlayerController : MonoBehaviour
         else grounded = false;
 
         Debug.DrawRay(grdChecker.position, Vector3.down * rayLength, Color.red);
-
-        // Realiza el salto si se detectó la entrada
-        if (jumpInput) Jump();
-    }
-
-    void Jump()
-    {
-        // Aplica la fuerza de salto
-        theRB.linearVelocity = new Vector3(theRB.linearVelocity.x, jumpForce, theRB.linearVelocity.z);
-        jumpInput = false;
     }
 }
