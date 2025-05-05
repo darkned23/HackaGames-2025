@@ -10,7 +10,8 @@ public abstract class Skill : MonoBehaviour
 
     public bool selfInflicted;
 
-    public GameObject effectPrfb;
+    public Animator SpriteAnim;
+    public RuntimeAnimatorController AnimatorController;
 
     protected Fighter emitter;
     protected Fighter receiver;
@@ -22,8 +23,9 @@ public abstract class Skill : MonoBehaviour
     }
     private void Animate()
     {
-        var go = Instantiate(this.effectPrfb, this.receiver.transform.position, Quaternion.identity);
-        Destroy(go, this.animationDuration);
+        if (SpriteAnim == null) return;
+
+        SpriteAnim.runtimeAnimatorController = AnimatorController;
     }
 
     public void Run()

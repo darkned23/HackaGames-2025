@@ -79,11 +79,15 @@ public class BoardUIManager : MonoBehaviour
     public void ReloadCurrentScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+        Time.timeScale = 1f;
     }
 
     // Carga una escena por índice
     public void LoadSceneByIndex(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+
+        Time.timeScale = 1f;
     }
 }

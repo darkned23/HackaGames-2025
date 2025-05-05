@@ -7,9 +7,17 @@ public class PlayerFighter : Fighter
     [Header("UI")]
     public PlayerSkillPanel skillPanel;
 
+    [Header("Player Stats")]
+    public int level = 1; // Valor predeterminado del nivel
+
+    public int maxHealth = 60; // Puedes agregar otras stats aquí si no las hereda de una base
+    public int attack = 25;
+    public int defense = 15;
+    public int speed = 7;
+
     void Awake()
     {
-        this.stats = new Stats(21, 60, 50, 45, 20);
+        this.stats = new Stats(level, maxHealth, attack, defense, speed);
     }
 
     public override void InitTurn()

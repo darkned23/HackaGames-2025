@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class EnemyFighter : Fighter
 {
-    
-     void Awake()
+    [Header("Enemy Stats")]
+    public int maxHealth = 50;
+    public int attack = 20;
+    public int defense = 10;
+    public int speed = 5;
+    public int level = 1;
+
+    void Awake()
     {
-        this.stats = new Stats(20, 50, 40, 30, 60);
+        this.stats = new Stats(level, maxHealth, attack, defense, speed);
     }
 
     public override void InitTurn()

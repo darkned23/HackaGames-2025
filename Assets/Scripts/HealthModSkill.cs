@@ -22,7 +22,7 @@ public class HealthModSkill : Skill
         if (dice <= this.critChance)
         {
             amount *= 2f;
-            this.messages.Enqueue("critical hit");
+            this.messages.Enqueue("daño crítico");
         }
 
         this.receiver.ModifyHealth(amount);

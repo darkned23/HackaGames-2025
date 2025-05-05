@@ -21,6 +21,9 @@ public class CombatManager : MonoBehaviour
 
     private Skill currentFighterSkill;
 
+    public Animator SpriteAnim;
+    public RuntimeAnimatorController AnimatorController;
+
     void Start()
     {
         LogPanel.Write("Battle initiated.");
@@ -48,7 +51,7 @@ public class CombatManager : MonoBehaviour
                     break;
 
                 case CombatStatus.FIGHTER_ACTION:
-                    LogPanel.Write($"{this.fighters[this.fighterIndex].idName} uses {currentFighterSkill.skillName}.");
+                    LogPanel.Write($"{this.fighters[this.fighterIndex].idName} eligió {currentFighterSkill.skillName}.");
 
                     yield return null;
 
@@ -89,7 +92,7 @@ public class CombatManager : MonoBehaviour
                     if (someoneDied)
                     {
                         this.isCombatActive = false;
-                        LogPanel.Write("Victory!"); // O podrías tener una lógica más específica para determinar quién ganó
+                        LogPanel.Write("victoriaa!"); // O podrías tener una lógica más específica para determinar quién ganó
                     }
                     else
                     {
@@ -99,14 +102,20 @@ public class CombatManager : MonoBehaviour
                     break;
 
                 case CombatStatus.NEXT_TURN:
+
                     yield return new WaitForSeconds(1f);
                     this.fighterIndex = (this.fighterIndex + 1) % this.fighters.Length;
 
                     var currentTurn = this.fighters[this.fighterIndex];
-                    LogPanel.Write($"{currentTurn.idName} has the turn.");
+                    LogPanel.Write($"{currentTurn.idName} tiene el turno");
                     currentTurn.InitTurn();
-
                     
+                    if(SpriteAnim != null)
+                    {
+                        SpriteAnim.runtimeAnimatorController = AnimatorController;
+                    }
+                    
+
                     this.combatStatus = CombatStatus.WAITING_FOR_FIGHTER;
                     break;
             }

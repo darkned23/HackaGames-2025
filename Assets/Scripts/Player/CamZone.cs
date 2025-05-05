@@ -1,6 +1,4 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 using Unity.Cinemachine;
 
 [RequireComponent(typeof(Collider))]
