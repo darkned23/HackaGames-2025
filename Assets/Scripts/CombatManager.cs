@@ -1,6 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections;
 public enum CombatStatus
 {
     WAITING_FOR_FIGHTER,
@@ -23,6 +22,8 @@ public class CombatManager : MonoBehaviour
 
     public Animator SpriteAnim;
     public RuntimeAnimatorController AnimatorController;
+
+    public SceneController sceneController;
 
     void Start()
     {
@@ -51,7 +52,7 @@ public class CombatManager : MonoBehaviour
                     break;
 
                 case CombatStatus.FIGHTER_ACTION:
-                    LogPanel.Write($"{this.fighters[this.fighterIndex].idName} eligió {currentFighterSkill.skillName}.");
+                    LogPanel.Write($"{this.fighters[this.fighterIndex].idName} eligiï¿½ {currentFighterSkill.skillName}.");
 
                     yield return null;
 
@@ -85,14 +86,24 @@ public class CombatManager : MonoBehaviour
                         if (fgtr.isAlive == false)
                         {
                             someoneDied = true;
-                            break; // No necesitamos seguir verificando si alguien ya murió
+                            break; // No necesitamos seguir verificando si alguien ya muriï¿½
                         }
                     }
 
                     if (someoneDied)
                     {
                         this.isCombatActive = false;
-                        LogPanel.Write("victoriaa!"); // O podrías tener una lógica más específica para determinar quién ganó
+                        LogPanel.Write("Â¡VICTORIA!");
+
+                        // Cargar la escena de victoria
+                        if (this.fighterIndex == 0)
+                        {
+                            sceneController.LoadSceneByIndex(6);
+                        }
+                        else
+                        {
+                            sceneController.LoadSceneByIndex(7);
+                        }
                     }
                     else
                     {
@@ -109,20 +120,20 @@ public class CombatManager : MonoBehaviour
                     var currentTurn = this.fighters[this.fighterIndex];
                     LogPanel.Write($"{currentTurn.idName} tiene el turno");
                     currentTurn.InitTurn();
-                    
-                    if(SpriteAnim != null)
+
+                    if (SpriteAnim != null)
                     {
                         SpriteAnim.runtimeAnimatorController = AnimatorController;
                     }
-                    
+
 
                     this.combatStatus = CombatStatus.WAITING_FOR_FIGHTER;
                     break;
             }
         }
     }
-        
-   
+
+
     public Fighter GetOpposingFighter()
     {
         if (this.fighterIndex == 0)

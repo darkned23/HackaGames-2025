@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2495969032777487330}
   - component: {fileID: 5395137163256541990}
   - component: {fileID: 7765534384323029560}
+  - component: {fileID: 4935536640020681742}
   m_Layer: 0
   m_Name: Pinture
   m_TagString: Enemy
@@ -72,6 +73,20 @@ MonoBehaviour:
   detectionRadius: 1
   xRange: {x: -2.5, y: -0.251}
   zRange: {x: 3.123, y: 1.661}
+--- !u!114 &4935536640020681742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3252384669979699120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d389b581004f44bb754833a25a6008, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSprite: {fileID: 0}
+  spriteRenderer: {fileID: 1630410066827435033}
 --- !u!1 &3840444815086778042
 GameObject:
   m_ObjectHideFlags: 0

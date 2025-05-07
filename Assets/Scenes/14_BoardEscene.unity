@@ -351,6 +351,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pivotOffset: {x: -0.58, y: 0, z: -0.39}
+--- !u!114 &46623656 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2809998746027350028, guid: 2a61c081f3bfd6e458f01bb9b4b1151a, type: 3}
+  m_PrefabInstance: {fileID: 46623648}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46623649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &104314441
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 816903dd311d1bf468d4bccd6161cdf1, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -625,7 +640,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -691,6 +707,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76c0df5bb35c03a4db869bb21d5f9f8d, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -703,7 +727,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -769,6 +794,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76c0df5bb35c03a4db869bb21d5f9f8d, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -781,7 +814,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -847,6 +881,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b6410e6b3d2aa04f8cba079991851f5, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -859,7 +901,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1011,6 +1054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 816903dd311d1bf468d4bccd6161cdf1, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1023,7 +1070,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1043,7 +1091,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2495969032777487330, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.472
+      value: -2.559
       objectReference: {fileID: 0}
     - target: {fileID: 2495969032777487330, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1051,7 +1099,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2495969032777487330, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.93
+      value: 2.013
       objectReference: {fileID: 0}
     - target: {fileID: 2495969032777487330, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1085,6 +1133,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1097,7 +1153,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1163,6 +1220,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c5876992c5345146ab73938b17ce99f, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1175,7 +1240,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1241,6 +1307,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b6410e6b3d2aa04f8cba079991851f5, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1253,7 +1327,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1262,6 +1337,153 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 2495969032777487330, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
   m_PrefabInstance: {fileID: 680315729}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &688898306
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1185333321}
+    m_Modifications:
+    - target: {fileID: 2771265666878722578, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 922387496}
+    - target: {fileID: 2771265666878722578, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774811573922054098, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Color.a
+      value: 0.98039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774811573922054098, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Color.b
+      value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774811573922054098, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Color.g
+      value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 2774811573922054098, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Color.r
+      value: 0.11372549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772659492299954241, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772659492299954241, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 922387496}
+    - target: {fileID: 3772659492299954241, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadSceneByIndex
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743609735245920486, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Name
+      value: Panel_Pause
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743609735245920486, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+--- !u!224 &688898307 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8499127178845059439, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+  m_PrefabInstance: {fileID: 688898306}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &688898308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6743609735245920486, guid: ef9207c3557e6a147983fa55c556159e, type: 3}
+  m_PrefabInstance: {fileID: 688898306}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &698531706
 PrefabInstance:
@@ -1319,6 +1541,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b6410e6b3d2aa04f8cba079991851f5, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1331,7 +1561,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1654,6 +1885,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1666,7 +1905,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1732,6 +1972,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c5876992c5345146ab73938b17ce99f, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1744,7 +1992,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -1810,6 +2059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 816903dd311d1bf468d4bccd6161cdf1, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -1822,7 +2075,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2017,6 +2271,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -2095,6 +2357,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c5876992c5345146ab73938b17ce99f, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -2107,7 +2377,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2197,7 +2468,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 31
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &884820860
 RectTransform:
@@ -2221,6 +2492,56 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &922387495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922387497}
+  - component: {fileID: 922387496}
+  m_Layer: 0
+  m_Name: SceneController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &922387496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922387495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8be79dc0f5d5a4b93b1c4df9e6ee9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeImage: {fileID: 1185333320}
+  panelPause: {fileID: 688898308}
+  LoadOnStart: 0
+  sceneIndexToLoadOnStart: 1
+  fadeDuration: 0.3
+  playerInput: {fileID: 46623656}
+--- !u!4 &922387497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922387495}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &937814369
 GameObject:
   m_ObjectHideFlags: 0
@@ -2386,6 +2707,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b6410e6b3d2aa04f8cba079991851f5, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -2398,7 +2727,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2914,6 +3244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 816903dd311d1bf468d4bccd6161cdf1, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -2926,7 +3260,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -2944,6 +3279,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4615189027784751727, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4787549135527505266, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
       propertyPath: m_Name
       value: FADE EFFECT
@@ -2951,6 +3290,14 @@ PrefabInstance:
     - target: {fileID: 4787549135527505266, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5844599742602352044, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5844599742602352044, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 5943402864206953312, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
       propertyPath: fadeDuration
@@ -2998,9 +3345,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4929023997212596706, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 688898307}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+--- !u!114 &1185333320 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 370564637113164497, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+  m_PrefabInstance: {fileID: 1185333319}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &1185333321 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4929023997212596706, guid: 8cdd2e18ac87758429451f2fc8c4eb1b, type: 3}
+  m_PrefabInstance: {fileID: 1185333319}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1274466268
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3057,6 +3423,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a3c278bed32978541a2d458d547fbbbe, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -3069,7 +3443,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3131,6 +3506,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -3143,7 +3526,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3261,6 +3645,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c5876992c5345146ab73938b17ce99f, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -3273,7 +3665,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3656,6 +4049,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a3c278bed32978541a2d458d547fbbbe, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -3668,7 +4069,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3870,6 +4272,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a3c278bed32978541a2d458d547fbbbe, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -3882,7 +4292,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -3944,6 +4355,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -3956,7 +4375,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4022,6 +4442,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c5876992c5345146ab73938b17ce99f, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -4034,7 +4462,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4339,6 +4768,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76c0df5bb35c03a4db869bb21d5f9f8d, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -4351,7 +4788,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4417,6 +4855,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76c0df5bb35c03a4db869bb21d5f9f8d, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -4429,7 +4875,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4713,6 +5160,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a3c278bed32978541a2d458d547fbbbe, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -4725,7 +5180,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -4931,6 +5387,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b6410e6b3d2aa04f8cba079991851f5, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -4943,7 +5407,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5141,6 +5606,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -5153,7 +5626,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5219,6 +5693,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 76c0df5bb35c03a4db869bb21d5f9f8d, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -5231,7 +5713,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5345,6 +5828,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 816903dd311d1bf468d4bccd6161cdf1, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -5357,7 +5844,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5555,6 +6043,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pinture (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 3252384669979699120, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4935536640020681742, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
+      propertyPath: newSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 94deebe8eb705eb489a9a718b725b203, type: 3}
     - target: {fileID: 7765534384323029560, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
       propertyPath: fleeSpeed
       value: 4
@@ -5567,7 +6063,8 @@ PrefabInstance:
       propertyPath: randomMoveSpeed
       value: 0.8
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4685106910179666612, guid: 4268248439dd36c45b9f55a66eb3afcf, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -5699,3 +6196,4 @@ SceneRoots:
   - {fileID: 1440309027}
   - {fileID: 1185333319}
   - {fileID: 1357625200}
+  - {fileID: 922387497}

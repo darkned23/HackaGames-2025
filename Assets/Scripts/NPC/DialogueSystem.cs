@@ -65,6 +65,26 @@ public class DialogueSystem : MonoBehaviour
         if (optionsPanel != null)
             optionsPanel.SetActive(false); // Asegura que el panel de opciones esté oculto al iniciar
         currentLineIndex = 0;
+
+        // Si no hay líneas de diálogo, continuar directamente
+        if (dialogueLines == null || dialogueLines.Length == 0)
+        {
+            // Mostrar el panel de opciones como el "último diálogo"
+            if (optionsPanel != null)
+            {
+                optionsPanel.SetActive(true);
+                dialoguePanel.SetActive(false);
+            }
+            else
+            {
+                EndDialogue();
+                dialogueStarted = false;
+                if (interactionPrompt != null)
+                    interactionPrompt.SetActive(true);
+            }
+            return;
+        }
+
         StartCoroutine(TypeLine());
     }
 

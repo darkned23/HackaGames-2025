@@ -35,7 +35,27 @@ public class HandController : MonoBehaviour
             if (hit.collider.CompareTag("Enemy"))
             {
                 Debug.Log("Hit enemy: " + hit.collider.name);
-                Destroy(hit.collider.gameObject);
+
+                // Cambiar el sprite del objeto hijo que tenga SpriteRenderer
+                GameObject enemyGO = hit.collider.gameObject;
+                SpriteRenderer spriteRenderer = enemyGO.GetComponentInChildren<SpriteRenderer>();
+                if (spriteRenderer != null)
+                {
+                    enemyGO.GetComponent<SpriteChange>().ChangeSprite(); // Cambiar el sprite
+                }
+
+                // Desactivar el script EnemyMovement
+                EnemyMovement enemyMovement = enemyGO.GetComponent<EnemyMovement>();
+                if (enemyMovement != null)
+                {
+                    enemyMovement.enabled = false;
+                }
+
+                // Cambiar la posición Y del enemigo a 0.02
+                Vector3 pos = enemyGO.transform.position;
+                pos.y = 0.02f;
+                enemyGO.transform.position = pos;
+
                 score += pointsPerEnemy;
                 OnScoreChanged?.Invoke(score); // Notificar cambio de puntuación
             }

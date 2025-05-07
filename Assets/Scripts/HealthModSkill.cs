@@ -22,7 +22,7 @@ public class HealthModSkill : Skill
         if (dice <= this.critChance)
         {
             amount *= 2f;
-            this.messages.Enqueue("daño crítico");
+            this.messages.Enqueue("daï¿½o crï¿½tico");
         }
 
         this.receiver.ModifyHealth(amount);
@@ -36,8 +36,13 @@ public class HealthModSkill : Skill
                 Stats emitterStats = this.emitter.GetCurrentStats();
                 Stats receiverStats = this.receiver.GetCurrentStats();
 
-                // Fórmula: https://bulbapedia.bulbagarden.net/wiki/Damage
+                // Fï¿½rmula: https://bulbapedia.bulbagarden.net/wiki/Damage
+                if (receiverStats.deffense <= 0)
+                {
+                    receiverStats.deffense = 1f; // Evitar que la defensa sea 0
+                }
                 float rawDamage = (((2 * emitterStats.level) / 5f) + 2) * this.amount * (emitterStats.attack / receiverStats.deffense);
+                Debug.Log("rawDamage: " + rawDamage);
 
                 return (rawDamage / 50f) + 2;
 
